@@ -1,12 +1,17 @@
 import React from "react";
 
 
-function Footer() {
+function Footer(props) {
   return (
     <div >
-      <p>
-        I'm in the footer
-      </p>
+      <div>
+        <p>
+            {props.copyright}
+        </p>
+      </div>
+        <p>
+            {props.date}
+        </p>
     </div>
   );
 }

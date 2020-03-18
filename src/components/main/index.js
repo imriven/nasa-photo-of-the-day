@@ -1,12 +1,18 @@
 import React from "react";
 
 
-function Main() {
+function Main(props) {
   return (
     <div >
-      <p>
-        I'm in the main
-      </p>
+      <div>
+          <img src={props.image}>
+          </img>
+      </div>
+      <div>
+          <p>
+          {props.description}
+          </p>
+      </div>
     </div>
   );
 }
