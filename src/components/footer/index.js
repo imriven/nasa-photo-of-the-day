@@ -9,10 +9,18 @@ function Footer(props) {
             {props.copyright}
         </p>
       </div>
+      <div>
         <p>
             {props.date}
         </p>
+      </div>
+         <div>
+        
+        
+        <input type="date" value={props.inputDate} onChange={props.changeDate} />
     </div>
+    </div>
+   
   );
 }
 
