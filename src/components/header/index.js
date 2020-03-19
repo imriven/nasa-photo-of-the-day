@@ -5,24 +5,24 @@ const SuperHeader = Styled.h1`
 color: ${props => props.color};
 font-family: "Baloo Chettan 2", cursive;
 font-size: 3rem;
+margin-left: 15%;
 align-items: center;
 justify-content:center;
+text-shadow:  5px 5px gray;
 `
 const SuperDiv = Styled.div`
-display:flex;
+display:flex-start;
 justify-content:center;
-
-
-width:100%;
-height:10vh;
-border-radius; 0 0 15% 0;
+background-color:black;
+border-top-right-radius: 25px;
+width: 90%;
 `
 
 function Header(props) {
    
   return (
     <SuperDiv >
-      <SuperHeader color="Purple">{props.title}</SuperHeader>
+      <SuperHeader color="White">{props.title}</SuperHeader>
     </SuperDiv>
   );
 }

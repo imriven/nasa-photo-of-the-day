@@ -4,13 +4,13 @@ import Styled from "styled-components"
 const MainContainerDiv = Styled.div`
 display:flex;
 flex-wrap:no-wrap;
-margin-bottom: 5%
+margin: 0;
 `
 
 const MainDisplayDiv = Styled.div`
 display: flex;
 box-shadow: 10px 10px 8px #888888;
-borderTopRightRadius: 15;
+
 `
 
 const MainDescriptionDiv = Styled.div`
@@ -21,7 +21,6 @@ text-align: justify;
 line-height:150%;
 padding: 2%;
 `
-
 
 function Main(props) {
     let display;

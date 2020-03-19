@@ -11,7 +11,7 @@ const BackgroundContainer = Styled.div`
 display: flex;
 flex-wrap: wrap;
 margin-top: 5%;
-border-radius: 0 10%;
+border-radius: 0 5%;
 padding: 1%;
 
 width: 60%;
